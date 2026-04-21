@@ -2,6 +2,7 @@
   "expo": {
     "name": "PfiEdouard_St-Martin_Sean_Edward_Dubois",
     "slug": "PfiEdouard_St-Martin_Sean_Edward_Dubois",
+    "scheme": "PfiEdouard_St-Martin_Sean_Edward_Dubois",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-sqlite",
+      {
+        "headers": {
+          "Cross-Origin-Embedder-Policy": "credentialless",
+          "Cross-Origin-Opener-Policy": "same-origin"
+        }
+      }
+    ]
   }
 }

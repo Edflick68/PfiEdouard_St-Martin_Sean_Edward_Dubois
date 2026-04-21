@@ -1,7 +1,7 @@
 {
   "name": "pfiedouard_st-martin_sean_edward_dubois",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "expo": "~54.0.33",
+    "expo-sqlite": "~16.0.10",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-maps": "1.20.1"
   },
   "private": true
 }
